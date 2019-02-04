@@ -1,0 +1,39 @@
+/* VERANSTALTUNGSKALENDER */
+
+#vctable {
+    width: 100%;
+    font-size:70%;
+    border-collapse: collapse;
+}
+
+#vctable th {
+    vertical-align:top;
+    text-align: left;
+    padding-left: 2px;
+/*    border: 1px solid black;
+    border-bottom: 1px solid black; */
+    background: rgb(185,201,214);
+}
+
+#vctable td {
+    vertical-align:top;
+/*    border: 1px dotted grey; */
+    padding: 2px;
+}
+
+#vctable .even {
+    background: rgb(195,209,218);
+}
+
+#vctable .odd {
+    background: white;
+}
+
+#vctable .present {
+    background: #FFFFFF;
+    border: 1px solid red;
+}
+
+#vctable .edate {
+    width: 90px;
+}

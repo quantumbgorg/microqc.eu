@@ -1,0 +1,11 @@
+#printlogo{
+display:none;
+}
+
+#nonxslt{
+display:block;
+}
+
+#departmentlogo, #sitelogo{
+display:none;
+}

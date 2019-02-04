@@ -1,0 +1,118 @@
+      body{ 
+/*
+      font-size:10.5pt;
+      margin-top:0px;
+      margin-left:4mm;
+      line-height:13.5pt;
+*/
+      width:80%;
+
+      font-family:Georgia,Times New Roman,serif; 
+      font-size:8pt;
+      line-height:11pt;
+
+
+      font-size:10.5pt;
+      line-height:13.5pt;
+
+      }
+
+.dontprint{
+display:none;
+}
+
+#header, #language, #side, #outerinfobox, #foooter, #departmentmainmenu, #departmentmainmenu2, #nonxslt, #contentnavi{
+display:none;
+}
+
+#contentheader{
+font-size:6pt;
+border-top:1px solid #999;
+border-bottom:1px solid #999;
+height:8pt;
+display:none;
+}
+
+#contentheader a{
+text-decoration:none;
+color:#999;
+display:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+color:#000;
+}
+
+img{
+   border:0;
+}
+
+      h1 {
+      font-size:150%;
+      font-weight:bold;
+      line-height:130%;
+      }
+      h2 {
+      font-size:130%;
+      line-height:115%;
+      }
+      h3 {
+      font-size:110%;
+      line-height:105%;    
+      }
+
+#printlogo{
+display:block;
+position:absolute;
+top:0;
+left:0;
+padding-bottom:1.8cm;
+}
+
+#printlogo img{
+border:0;
+}
+
+#main{
+width:100%;
+left:0;
+}
+
+#editablecontent, #content, #outercontentsmall, #outercontentwidth{
+left:0px;
+display:block;
+width:100%;
+}
+
+#content{
+display:block;
+overflow:visible;
+}
+
+#footer{
+border-top:1px solid #000;
+padding-top:1em;
+margin-top:2em;
+color:#999;
+}
+#sitefoooter{
+clear:both;
+position:relative;
+border-top:1px solid #000;
+}
+
+#footercontent{
+font-size:8pt;
+}
+
+#all{
+display:block;
+/* width:160mm; */
+width:100%;
+top:1cm;
+}
+
+#editablecontent a{
+color:#000;
+text-decoration:underline;
+}

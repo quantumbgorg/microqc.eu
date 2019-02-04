@@ -1,0 +1,182 @@
+body{
+background-color:#666;
+text-align:left;
+margin:0;
+padding:0;
+}
+body.mceContentBody {
+   background: #FFF;
+   color:#000;
+}
+
+#editablecontent img{
+border:0;
+}
+#sitemenu, #sitelogo,#contentheader,#departmentmainmenu{
+display:none;
+}
+#side{
+position:absolute;
+z-index:999;
+//top:58px;
+top:158px;
+left:40px;
+font-size:1.8em;
+font-weight:bold;
+font-family:Georgia;
+width:100%;
+display:block;
+height:3em;
+}
+#side ul li a{
+background-color:#fff;
+color:#666;
+padding:4px 5px 3px 5px;
+}
+#side ul li ul li a{
+background-color:#d39191;
+background-color:#ddd;
+color:#666;
+}
+#side a:hover,#side a.active{
+color:#fff;
+background-color:#FF7202;
+}
+#sidemenu ul{
+width:auto;
+}
+#sidemenu ul li{
+float:left;
+position:relative;
+}
+
+#sidemenu ul li ul{
+width:auto;
+display:inline;
+clear:both;
+position:absolute;
+top:24px;
+left:-10px;
+width:900px;
+}
+#sidemenu ul li ul li{
+width:auto;
+float:left;
+display:inline;
+margin:0;
+}
+#header{
+height:150px;
+padding-top:10px;
+margin-top:10px;
+border:0;
+background-color:white;
+overflow:visible;
+background-image:url(http://www.uni-siegen.de/itiq-research/style/rahmen/oben.jpg);
+background-repeat:repeat-x;
+background-position:bottom left;
+}
+#departmentlogo{
+//height:61px;
+height:100px;
+overflow:visible;
+}
+#main{
+background-image:none;
+background-color:#fff;
+width:100%;
+}
+#all{
+width:90%;
+background-color:#fff;
+}
+#outercontentwidth{
+display:block;
+padding:50px 20px 0 28px;
+background-color:#fff;
+
+}
+
+h1,h2,h3,h4,h5,h6,body{
+color:#666;
+}
+h1,h2,h3,h4,h5,h6{
+font-family:Georgia;
+border-bottom:1px solid #963;
+margin-bottom:10px;
+font-weight:normal;
+line-height:1.25em;
+}
+img.button.dontprint{
+visibility:hidden;
+margin-left:-0.7em;
+}
+#editablecontent a{
+color:#963;
+border-bottom:1px dotted #963;
+}
+#editablecontent a:hover{
+color:#000;
+background-color:#ddd;
+border-bottom:1px solid #963;
+border-top:1px solid #963;
+}
+
+#outercontentwidth{
+width:auto;
+float:none;
+background-image:url(http://www.uni-siegen.de/itiq-research/style/rahmen/rechts.jpg);
+background-repeat:repeat-y;
+background-position:top right;
+}
+
+#sitefooter{
+display:none ;
+}
+
+#footer{
+display:none;
+}
+
+#footer_ul{
+background-color:#666;
+background-image:url(http://www.uni-siegen.de/itiq-research/style/rahmen/unten_links.jpg);
+background-repeat:no-repeat;
+width:71px;
+height:5px;
+display:block;
+float:left;
+}
+#footer_ur{
+background-color:#666;
+background-image:url(http://www.uni-siegen.de/itiq-research/style/rahmen/unten_rechts.jpg);
+background-repeat:no-repeat;
+width:66px;
+height:5px;
+display:block;
+float:right;
+}
+
+#editablecontent img.bilder{
+padding-left:1em;
+margin-top:-11px;
+margin-right:-10px;
+border-top:1px solid #963;
+}
+
+#editablecontent img.folgebilder{
+padding-left:1em;
+margin-right:-10px;
+}
+
+.bilder, .folgebilder{
+
+}
+
+
+#editablecontent ul{
+        list-style-image:url(/akjb/style/images/ul.gif);
+}
+#editablecontent ul ul{
+        list-style-image:url(/akjb/style/images/ulul.gif);
+}
